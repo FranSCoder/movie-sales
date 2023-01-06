@@ -5,10 +5,14 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  overflow: hidden;
 }
 
 body {
   height: 100vh;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   background: linear-gradient(#111, #999 50%, #111 100%);
 }
 
@@ -39,6 +43,7 @@ h3 {
   border: 3px solid black;
   border-radius: 5px;
   box-shadow: 0 0 40px white;
+  overflow: visible;
 }
 #main-square div.movie-name {
   height: 100%;
@@ -66,4 +71,10 @@ div#tooltip {
   border: 2px solid white;
   border-radius: 10px;
   pointer-events: none;
+}
+
+@media only screen and (max-width: 1120px) {
+  * {
+    overflow-x: auto;
+  }
 }/*# sourceMappingURL=styles.css.map */
