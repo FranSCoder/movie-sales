@@ -1,25 +1,23 @@
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  overflow: hidden;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 body {
   height: 100vh;
-  min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
   background: linear-gradient(#111, #999 50%, #111 100%);
 }
 
-h1, h3 {
-  font-family: "ITC Benguiat W01", "Source Sans Pro", sans-serif;
+h1,
+h3 {
+  font-family: 'ITC Benguiat W01', 'Source Sans Pro', sans-serif;
   margin-bottom: 1rem;
-  text-shadow: 0 0 10px #ffff99;
+  color: goldenrod;
 }
 
 h1 {
@@ -77,4 +75,4 @@ div#tooltip {
   * {
     overflow-x: auto;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
